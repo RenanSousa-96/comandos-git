@@ -110,7 +110,7 @@
 02. git branch
 03. git checkout
 04. git status
-05. git add *arquivos*
+05. git add -A
 06. git status
 07. git commit -m "nova mensagem"
-08. git push -u origin main
+08. git push origin main
