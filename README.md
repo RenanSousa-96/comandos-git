@@ -100,5 +100,17 @@
 07. git status
 08. git commit -m "nova mensagem"
 09. git branch -M main
-10. git remote add origin https://github.com/<seuUsuario>/<SeuRepositoio>.git 
+10. git remote add origin https://github.com/seuUsuario/SeuRepositoio.git 
 11. git push -u origin main
+
+----
+
+## Fluxo de Atualização de um repositório remoto
+01. Na pasta com os arquivos, abrir o GitBash e executar os seguintes comandos
+02. git branch
+03. git checkout
+04. git status
+05. git add *arquivos*
+06. git status
+07. git commit -m "nova mensagem"
+08. git push -u origin main
