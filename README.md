@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 ## Fluxo de trabalho Git local
 
 01. git checkout -b <nova-branch>
@@ -89,4 +87,18 @@
 11. excluir <nova_branch> origin
 12. git checkout main
 13. git branch -D <nova_branch>
->>>>>>> 9e4f3bb (atualização do readme.md)
+
+----
+
+## Fluxo Criação e Envio de arquivos para um repositório remoto
+01. Criar um repositório no github
+02. Criar uma pasta local, com o mesmo nome do repositório
+03. Acessar o git bash na pasta criada e executar os seguintes comandos
+04. git init
+05. git status
+06. git add *arquivos*
+07. git status
+08. git commit -m "nova mensagem"
+09. git branch -M main
+10. git remote add origin https://github.com/<seuUsuario>/<SeuRepositoio>.git 
+11. git push -u origin main
